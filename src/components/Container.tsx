@@ -9,11 +9,9 @@ export default function Container(props) {
                 <meta content="minota" name="description"/>
                 <meta name="theme-color" content="#ff9cfa"/>
             </Head>
-            <body>
-                <main>
-                    {children}
-                </main>
-            </body>
+            <main>
+                {children}
+            </main>
         </>
     )
 }
