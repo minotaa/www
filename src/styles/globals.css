@@ -22,7 +22,7 @@ body {
     border: none;
     border-radius: 20px;
     color: #fff;
-    padding: 15px 32px;
+    padding: 20px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -30,13 +30,15 @@ body {
 
 .button:hover {
     background-color: black;
-    padding: 17px 34px;
+    padding: 20px 20px;
+    transition: ease 1s;
 }
 
 .button:focus {
     background-color: black;
-    padding: 17px 34px;
-    outline: none;
+    padding: 20px 20px;
+    outline: blue;
+    transition: ease 1s;
 }
 
 hr {
